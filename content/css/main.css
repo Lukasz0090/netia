@@ -1,0 +1,339 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Source Sans Pro Bold';
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/SourceSansPro-Bold.eot") format("embedded-opentype"), url("../fonts/SourceSansPro-Bold.ttf.woff2") format("woff2"), url("../fonts/SourceSansPro-Bold.otf.woff") format("woff"), url("../fonts/SourceSansPro-Bold.otf") format("opentype"), url("../fonts/SourceSansPro-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'Source Sans Pro Regular';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/SourceSansPro-Regular.eot") format("embedded-opentype"), url("../fonts/SourceSansPro-Regular.ttf.woff2") format("woff2"), url("../fonts/SourceSansPro-Regular.otf.woff") format("woff"), url("../fonts/SourceSansPro-Regular.otf") format("opentype"), url("../fonts/SourceSansPro-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'MyriadPro light';
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/myriadpro-light-webfont.eot") format("embedded-opentype"), url("../fonts/myriadpro-light-webfont.svg") format("svg"), url("../fonts/myriadpro-light-webfont.woff") format("woff"), url("../fonts/myriadpro-light-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'MyriadPro Semibold';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/myriadpro-semibold-webfont.eot") format("embedded-opentype"), url("../fonts/myriadpro-semibold-webfont.svg") format("svg"), url("../fonts/myriadpro-semibold-webfont.woff") format("woff"), url("../fonts/myriadpro-semibold-webfont.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'MyriadPro Bold';
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/myriad-pro-bold.eot") format("embedded-opentype"), url("../fonts/myriad-pro-bold.svg") format("svg"), url("../fonts/myriad-pro-bold.woff") format("woff"), url("../fonts/myriad-pro-bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'MyriadPro Regular';
+  font-style: normal;
+  font-stretch: normal;
+  src: url("../fonts/myriadpro-regular-webfont.eot") format("embedded-opentype"), url("../fonts/myriadpro-regular-webfont.svg") format("svg"), url("../fonts/myriadpro-regular-webfont.woff") format("woff"), url("../fonts/myriadpro-regular-webfont.ttf") format("truetype"); }
+
+body {
+  margin: 0; }
+
+.main-wrapper {
+  width: 100%; }
+
+header {
+  padding: 5.16vw 6.25%;
+  text-align: right; }
+  header a {
+    display: inline-block;
+    line-height: 15.6vw img;
+      line-height-height: auto;
+      line-height-width: auto;
+      line-height-max-width: 100%;
+      line-height-max-height: 4.69vw; }
+
+.top {
+  background: #3d4b4f;
+  padding: 0 6.25%; }
+
+h1.title {
+  font-family: 'MyriadPro Bold';
+  margin: 0 0;
+  font-size: 11.5vw;
+  color: #000; }
+
+.title span {
+  color: #ff008c; }
+
+h2 {
+  margin: 0 0;
+  font-size: 6.5vw;
+  color: #fff;
+  padding: 6.25vw 0;
+  font-family: 'Source Sans Pro Bold'; }
+
+h3 {
+  font-size: 6.72vw; }
+
+p.usluga {
+  font-family: 'MyriadPro Regular';
+  margin: 0;
+  font-size: 3.375vw;
+  color: #fff;
+  padding: 1.6vw 0 0.71vw 0; }
+
+input,
+input::-webkit-input-placeholder {
+  font-size: 4.69vw;
+  color: #586265; }
+
+.input-wrapper {
+  text-align: left;
+  padding: 0 0 0 0;
+  margin: 0; }
+  .input-wrapper .input-large {
+    margin: 0;
+    display: inline-block;
+    width: 61.5%;
+    border: solid 0.4vw #c6c6c6;
+    padding: 4.22vw; }
+  .input-wrapper .input-large-error {
+    margin: 0;
+    display: inline-block;
+    width: 61.5%;
+    border: solid 0.4vw #FF008C;
+    padding: 4.22vw; }
+  .input-wrapper input.input-large:focus {
+    outline: 0;
+    border-color: #426AFF;
+    box-shadow: inset 0px 0px 1.56vw 0px #009CFF;
+    -webkit-box-shadow: inset 0px 0px 1.56vw 0px #009CFF;
+    -moz-box-shadow: inset 0px 0px 1.56vw 0px #009CFF;
+    -o-box-shadow: inset 0px 0px 1.56vw 0px #009CFF; }
+  .input-wrapper p.error-info {
+    font-family: 'MyriadPro Regular';
+    margin: 0;
+    font-size: 3.375vw;
+    padding: 0.71vw 0;
+    color: #FF008C; }
+  .input-wrapper input.input-large-error:focus {
+    outline: 0;
+    border-color: #D929AE;
+    box-shadow: inset 0px 0px 1.56vw 0px #D929AE;
+    -webkit-box-shadow: inset 0px 0px 1.56vw 0px #D929AE;
+    -moz-box-shadow: inset 0px 0px 1.56vw 0px #D929AE;
+    -o-box-shadow: inset 0px 0px 1.56vw 0px #D929AE; }
+
+.button-wrapper {
+  font-family: 'MyriadPro Semibold';
+  border: solid 0.4vw #ff008c;
+  display: inline-block;
+  background-color: #ff008c;
+  padding: 4.22vw 3.6vw;
+  font-size: 4.69vw;
+  color: #fff; }
+  .button-wrapper p {
+    margin: 0;
+    position: relative;
+    padding-right: 5vw; }
+    .button-wrapper p:after {
+      display: block;
+      position: absolute;
+      content: '';
+      top: 50%;
+      right: 0;
+      background-image: url(../images/smartfon_next.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 4.22vw;
+      height: 5.625vw;
+      transform: translateX(50%) translateY(-50%); }
+
+.next {
+  display: block;
+  background-image: url(../images/smartfon_next.png); }
+
+.border {
+  padding: 7.5vw 6.25% 7.5vw 6.25%; }
+
+.border > h1 span {
+  color: #ff008c; }
+
+p.top {
+  font-family: 'MyriadPro Regular';
+  margin: 0;
+  font-size: 3.90vw;
+  color: #fff;
+  padding: 0 0 7.8vw 0; }
+
+p.bottom {
+  font-family: 'Source Sans Pro Regular';
+  margin: 0;
+  font-size: 6.7vw;
+  color: #000;
+  padding: 0 0 0 0; }
+
+.border > ul {
+  font-size: 4vw;
+  padding: 0 0 1.56vw 0;
+  list-style: none; }
+  .border > ul li {
+    font-family: 'Source Sans Pro Regular';
+    position: relative;
+    padding: 0 0 2vw 3vw; }
+    .border > ul li:before {
+      display: block;
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 1vw;
+      width: 1.5vw;
+      height: 1.5vw;
+      background: #000; }
+
+.image {
+  background-image: url("../images/smartfon_image.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 84%; }
+
+.button-scroll {
+  font-family: 'MyriadPro Semibold';
+  text-align: center;
+  padding: 0.4vw 0;
+  background: #ff008c; }
+  .button-scroll p {
+    font-size: 4.69vw;
+    color: #fff;
+    padding: 0;
+    display: inline-block;
+    position: relative; }
+    .button-scroll p:before, .button-scroll p:after {
+      display: block;
+      position: absolute;
+      content: '';
+      top: 50%;
+      left: -10vw;
+      background-image: url(../images/smartfon_next.png);
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 4.22vw;
+      height: 5.625vw;
+      transform: rotate(-90deg) translateY(-100%) translateX(50%); }
+    .button-scroll p:after {
+      left: auto;
+      right: -10vw;
+      transform: rotate(-90deg) translateY(100%) translateX(50%); }
+
+.opis {
+  padding: 0 6.25%; }
+
+.opis p {
+  font-family: 'MyriadPro light';
+  text-align: justify;
+  color: #777777;
+  font-size: 3.125vw; }
+
+.buttons-footer {
+  background: #e2e2e2;
+  padding: 2.56vw 0; }
+
+.buttons-footer > div {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+  padding: 1.95vw 0; }
+
+.buttons-footer > div p {
+  font-size: 3.75vw;
+  color: #000;
+  text-decoration: underline 2px #595959; }
+
+.left-button {
+  border-right: 2px solid #919191; }
+
+.border-footer {
+  text-align: center; }
+  .border-footer p {
+    font-family: 'MyriadPro Regular';
+    font-size: 3.75vw;
+    color: #000; }
+
+a.hreffotter {
+  font-family: 'MyriadPro Regular';
+  font-size: 3.75vw;
+  color: #000; }
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px; }
+
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 3.91vw;
+  cursor: pointer; }
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.31vw;
+  width: 2.66vw;
+  height: 2.66vw;
+  border: 0.16vw solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  box-shadow: inset 0 0.16vw 0.47vw rgba(0, 0, 0, 0.3); }
+
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0.47vw;
+  left: 0.63vw;
+  font-size: 2.81vw;
+  line-height: 0.8;
+  color: #000;
+  transition: all .2s; }
+
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0); }
+
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1); }
+
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd; }
+
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999; }
+
+[type="checkbox"]:disabled + label {
+  color: #aaa; }
+
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 0.16vw dotted blue; }
+
+/* hover style just for information */
+label:hover:before {
+  border: 0.16vw solid #4778d9 !important; }

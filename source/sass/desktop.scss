@@ -1,0 +1,327 @@
+@font-face{
+    font-family: 'Source Sans Pro Bold';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Bold.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Bold.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Bold.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Bold.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Source Sans Pro Regular';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/SourceSansPro-Regular.eot') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-Regular.ttf.woff2') format('woff2'),
+         url('../fonts/SourceSansPro-Regular.otf.woff') format('woff'),
+         url('../fonts/SourceSansPro-Regular.otf') format('opentype'),
+         url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyriadPro light';
+    //font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/myriadpro-light-webfont.eot') format('embedded-opentype'),
+         url('../fonts/myriadpro-light-webfont.svg') format('svg'),
+         url('../fonts/myriadpro-light-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-light-webfont.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyriadPro Semibold';
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/myriadpro-semibold-webfont.eot') format('embedded-opentype'),
+         url('../fonts/myriadpro-semibold-webfont.svg') format('svg'),
+         url('../fonts/myriadpro-semibold-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-semibold-webfont.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyriadPro Bold';
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/myriad-pro-bold.eot') format('embedded-opentype'),
+         url('../fonts/myriad-pro-bold.svg') format('svg'),
+         url('../fonts/myriad-pro-bold.woff') format('woff'),
+         url('../fonts/myriad-pro-bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'MyriadPro Regular';
+    font-style: normal;
+    font-stretch: normal;
+    src: url('../fonts/myriadpro-regular-webfont.eot') format('embedded-opentype'),
+         url('../fonts/myriadpro-regular-webfont.svg') format('svg'),
+         url('../fonts/myriadpro-regular-webfont.woff') format('woff'),
+         url('../fonts/myriadpro-regular-webfont.ttf') format('truetype');
+}
+
+
+.main-wrapper{
+    background-image: url('../images/tlo_desktop.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    min-height: 47.6vw;
+  
+
+    header{
+    padding: 2.08vw 4.43%  0.52vw 4.43%; 
+    text-align:right;
+    img{
+      max-width:12.7vw;
+    }
+
+    }
+
+    section{
+    padding:0 0 0 3.64%;
+        #left{
+            display:inline-block;
+          
+            padding:0 16.8vw 0 0;
+            h1.title{
+                font-family: 'MyriadPro Bold';
+                margin: 0 0;
+                font-size:6.87vw;
+                color:#000; 
+                span{
+                   color:#ff008c; 
+                }
+            }
+            p.bottom{
+                 font-family: 'Source Sans Pro Regular';
+                  font-size:3.25vw;
+                  color: #000;
+                  padding:0 0 1.30vw 0;
+            }
+            ul{
+              font-size: 1.56vw; 
+              padding:2.24vw 0 0 0;
+              list-style: none;
+              li{
+                font-family: 'Source Sans Pro Regular';
+                position: relative;
+                padding: 0 0 1.87vw 1.56vw;
+                  &:before{
+                      display:block;
+                      content: "";
+                      position: absolute;
+                      left: 0;
+                      top: 1vw;
+                      width: 0.47vw;
+                      height: 0.47vw;
+                      background: #000;
+                      transform: translateX(50%) translateY(-50%);
+                  }
+    }
+            }
+      
+        }
+        #right{
+            display:inline-block;
+  
+            .right-contener{
+                width:86%;
+                width: 110%\9;
+                -webkit-width: 110%;
+                background-color: #3d4b4f;
+                padding:2.6vw 6.8% 1.56vw 6.8%;
+                vertical-align:top;
+            
+
+                    h2{
+                        font-size:1.98vw;
+                        color:#fff;
+                        padding: 0 0 2.97vw 0;
+                        font-family: 'Source Sans Pro Bold';
+                    }
+
+                    p.usluga{
+                        font-family: 'Source Sans Pro Regular';
+                        font-size:1.25vw;
+                        color: #fff;
+                        padding:0 0 1.71vw 0;
+                    }
+                    .input-wrapper{
+                       
+                        #number-tel{
+                        color:#586265;
+                        font-size: 1.56vw;
+                        padding: 0.78vw 6%;
+                           width:87%;
+                            min-height:3.64vw;
+                        }
+                        p.error-info{
+                            font-family:'Source Sans Pro Regular';
+                            font-size:1.25vw;
+                            color: #fff;
+                            padding:0.53vw 0;
+                        }
+                        input::-webkit-input-placeholder {
+  
+                              font-size: 1.56vw;
+                              color:#586265;
+                      }
+                      .input-large{
+                         
+                            border: solid 0.1vw #c6c6c6;
+                            .input-large:focus{
+                                outline: 0;
+                                border-color: #426AFF;
+                                box-shadow: inset 0px 0px 2.56vw 0px #009CFF;
+                                -webkit-box-shadow: inset 0px 0px 2.56vw 0px #009CFF;
+                                -moz-box-shadow: inset 0px 0px 2.56vw 0px #009CFF;
+                                -o-box-shadow: inset 0px 0px 2.56vw 0px #009CFF;
+
+                              }
+                            
+                      }
+
+                        .input-large-error{
+                            width:100%;
+                            border: solid 0.1vw #FF008C;
+                            padding: 0 2%;
+                            .input-large-error:focus{
+                                outline: 0;
+                                border-color: #D929AE;
+                                box-shadow: inset 0px 0px 2.56vw 0px #D929AE;
+                                -webkit-box-shadow: inset 0px 0px 2.56vw 0px #D929AE;
+                                -moz-box-shadow: inset 0px 0px 2.56vw 0px #D929AE;
+                                -o-box-shadow: inset 0px 0px 2.56vw 0px #D929AE;
+
+                            }
+
+                      }
+                      p.error-info{
+                          font-family: 'MyriadPro Regular';
+                          margin: 0;
+                          font-size:1.04vw;
+                          padding: 0.71vw 0;
+                          color:#FF008C;
+                        }
+                    }
+                    p.top{
+                        font-family:'Source Sans Pro Regular';
+                        font-size:1.25vw;
+                        color: #fff;
+                        padding:0 0 2.08vw 0;
+                    }
+
+                    .button-wrapper{
+                        width:100%;
+                        background: #ff008c;
+                        p{
+                            font-family:'MyriadPro Semibold';
+                            font-size:1.56vw;
+                            color: #fff;
+                            padding: 1.56vw 12.5%;
+                            position:relative;
+                    
+                        &:after{
+                            display: block;
+                            position: absolute;
+                            content: '';
+                            top: 50%;
+                            right: 2.6vw;
+                            background-image: url(../images/smartfon_next.png);
+                            background-repeat: no-repeat;
+                            background-size: 100% 100%;
+                            width: 1.41vw;
+                            height: 1.82vw;
+                            transform: translateX(50%) translateY(-50%);
+                          
+                            }
+                        }
+                    }  
+            }
+        }
+    }
+}
+
+footer{
+font-family:'MyriadPro Regular';
+  text-align:justify;
+  font-size:0.625vw;
+  padding:1.67vw 6.66%;
+  color:#ababab;
+
+}
+
+
+
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999vw;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 2.29vw;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:-0.26vw; top: -0.26vw;
+  width: 1.56vw; height:1.56vw;
+  border: 0.16vw solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  //box-shadow: inset 0 0.16vw 0.47vw rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 0 ; left: 0;
+  font-size: 1.78vw;
+  line-height: 0.8;
+  color: #000;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #c6c6c6;
+  background-color: #fff;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border:  0.16vw dotted blue;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 0.10vw solid #c6c6c6!important;
+}
